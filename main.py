@@ -115,7 +115,7 @@ app = Tk()
 app.title('Controle Clientes Vivo')
 app.geometry('800x500')
 
-
+# Botões do topo Novo Editar e Deletar
 btn_novo = Button(app,
                   text='Novo',
                   command=cadastrar)
